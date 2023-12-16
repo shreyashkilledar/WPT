@@ -1,0 +1,2 @@
+npm config set proxy http://exam:exam@192.168.10.4.:808
+npm config set https-proxy http://exam:exam@192.168.10.4.:808
