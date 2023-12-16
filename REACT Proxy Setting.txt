@@ -1,2 +1,42 @@
-npm config set proxy http://exam:exam@192.168.10.4.:808
-npm config set https-proxy http://exam:exam@192.168.10.4.:808
+1)npm config set proxy http://exam:exam@192.168.10.4.:808
+2)npm config set https-proxy http://exam:exam@192.168.10.4.:808
+3)npx create-react-app project
+
+after installation
+1)Create new .js file in src (export)
+  Ex.
+export default function Person()
+{
+    return(
+        <p><h1 align="center">Shreyash</h1>
+            <b>
+                <i>
+                    <u>
+                        SHREYASH        
+                    </u>
+                </i>
+            </b>
+            </p>
+    )
+}
+
+
+2)Then do a change in App.js file(import) 
+Ex.
+import './App.css';
+import Person from './Person';
+
+function App() {
+  return (
+    <div className="App">
+     
+     <Person></Person>
+     
+    </div>
+  );
+}
+
+export default App;
+
+3)run on server using 
+http://localhost:3000/
