@@ -1,17 +1,21 @@
 <html>
-<head>
-    <title>
-        Hello
-    </title>
-</head>
-<body>
-    <b>
-        <i>
-            <u>
-                Hello World
-            </u>
-           
-        </i>
-    </b>
-</body>
+    <head>
+        <script>
+            function f1()
+            {
+                let inputelement=document.getElementById("i1")
+                let s=inputelement.value
+                let ustr=s.toUpperCase()
+                let lstr=s.toLowerCase()
+                document.getElementById("p1").innerHTML="<b>"+ustr+"</b>"
+                document.getElementById("p2").innerHTML="<b>"+lstr+"</b>"
+            }
+        </script>
+    </head>
+    <body>
+        Enter String:<input type="text" id="i1"/>
+        <input type="button" value="Show Uppercase" onclick="f1()"/>
+        <p id="p1"></p>
+        <p id="p2"></p>
+    </body>
 </html>
