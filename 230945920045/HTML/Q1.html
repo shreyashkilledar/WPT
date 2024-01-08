@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            Date
+        </title>
+    </head>
+
+    <body>
+        <h2><b><i><u>Date</u></i></b></h2>
+        <p><input type="date" id="myDate" value="2001-01-01"></p>
+        Click Here to Check the Selected Date: <button onclick="myFunction()">Click</button>
+        <p>You Selected: </p>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+            let x = document.getElementById("myDate").value;
+            document.getElementById("demo").innerHTML = x;
+            }
+        </script>
+
+        <p>Today is: </p>
+        
+        <p id="today"></p>
+        <script>
+            const d = new Date();
+            document.getElementById("today").innerHTML = d;
+        </script>
+    </body>
+</html>
+

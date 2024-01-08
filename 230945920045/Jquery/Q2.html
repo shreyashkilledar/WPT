@@ -1,0 +1,19 @@
+<html>
+<body>
+   <h2> Reverse the String </h2>
+   <div id="output"> </div>
+   <script>
+      let output = document.getElementById("output");
+      function reverse(string) {
+         if (string === "") {
+            return "";
+         } else {
+         return reverse(string.substr(1)) + string[0];
+         }
+      }
+      
+      let result = reverse("hello");
+      output.innerHTML = result;
+   </script>
+</body>
+</html>
