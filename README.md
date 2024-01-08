@@ -1,4 +1,6 @@
+
 # WPT
+SK help kr
 
 set 1
 mala Set 2 ahe
@@ -14,3 +16,5 @@ matching any of following
 
 create copy of above object in variable obj ,copy using spread operator
 change mark in first objectprint details of both objects.ou should find that of first obj and obj copy are diff
+
+
