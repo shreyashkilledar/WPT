@@ -1,6 +1,8 @@
 
 # WPT
 SK help kr
+Q1
+using Html CSS  javascript,show webpage that display poem in a div  with yello background,rounded solid blue border.font should be 3em,the poem should be seen in black and italic and div should be show in the center of browser.use ID selector with external css.
 
 set 1
 mala Set 2 ahe
